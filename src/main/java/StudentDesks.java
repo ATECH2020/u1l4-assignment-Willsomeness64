@@ -7,14 +7,50 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        
+        System.out.println("How many students are in class a, b, c?");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        int desksNeeded = 0;
 
         /*
          *  your code goes here
          */
 
+          if (a%2 != 1)
+          {
+            desksNeeded += a/2;
+          } 
+          else 
+         {
+          desksNeeded += a/2 + 1;       
+         }
 
-        // closing the scanner object
+          if (b%2 != 1)
+          {
+          desksNeeded += b/2;
+          }
+          else 
+          {
+          desksNeeded += b/2 + 1;
+          }
+
+         if (c%2 != 1)
+          {
+          desksNeeded += c/2;
+          }
+         else 
+         {
+          desksNeeded += c/2 + 1;
+         }
+        System.out.print("We'll need to buy " + desksNeeded + " desks to sit all the students");
+
+
         scanner.close();
+        }
+
+
+        
+        // closing the scanner object
+        
     }
-}

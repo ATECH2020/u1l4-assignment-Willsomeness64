@@ -4,6 +4,7 @@ class Timestamps {
     public static void main(String[] args) {
 
         //Creates a new scanner for user input
+        System.out.println("Please Insert your time stamps.");
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
@@ -13,13 +14,22 @@ class Timestamps {
         int hours2 = scanner.nextInt();
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
+        int hours3; 
+        int minutes3; 
+        int seconds3;
+        int totalTime;
+
 
 
         /*
          *  your code goes here
          */
+        Hours3 = hours2 - hours1;
+        minutes3 = minutes2 - minutes1;
+        seconds3 = seconds2 - seconds1;
 
-
+      totalTime = (hours3*3600) + (minutes3 *60) + seconds3;
+      System.out.println("A total of " + totalTime + " seconds have passed");
         // closing the scanner object
         scanner.close();
     }
