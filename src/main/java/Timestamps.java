@@ -24,7 +24,7 @@ class Timestamps {
         /*
          *  your code goes here
          */
-        Hours3 = hours2 - hours1;
+        hours3 = hours2 - hours1;
         minutes3 = minutes2 - minutes1;
         seconds3 = seconds2 - seconds1;
 
