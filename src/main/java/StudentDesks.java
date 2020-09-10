@@ -43,7 +43,7 @@ class StudentDesks {
          {
           desksNeeded += c/2 + 1;
          }
-        System.out.print("We'll need to buy " + desksNeeded + " desks to sit all the students");
+        System.out.println("We'll need to buy " + desksNeeded + " desks to sit all the students");
 
 
         scanner.close();
