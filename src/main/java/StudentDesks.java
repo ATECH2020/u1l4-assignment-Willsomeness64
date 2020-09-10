@@ -7,7 +7,6 @@ class StudentDesks {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-        System.out.println("How many students are in class a, b, c?");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
@@ -43,7 +42,7 @@ class StudentDesks {
          {
           desksNeeded += c/2 + 1;
          }
-        System.out.println("We'll need to buy " + desksNeeded + " desks to sit all the students");
+        System.out.println(desksNeeded);
 
 
         scanner.close();

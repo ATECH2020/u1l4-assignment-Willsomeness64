@@ -4,8 +4,7 @@ class SecondsPastMidnight {
     public static void main(String[] args) {
 
         //Creates a new scanner for user input
-        System.out.println("Enter a time for the SecondsPastMidnight");
-        Scanner scanner = new Scanner(System.in);
+         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
        
@@ -16,7 +15,7 @@ class SecondsPastMidnight {
 
        hours = number / 3600;
        mins =  number / 60;
-       System.out.println(hours + " " + mins);
+       System.out.print(hours + " " + mins);
         //Your code goes here
 
 
