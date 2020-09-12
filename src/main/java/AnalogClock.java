@@ -17,7 +17,7 @@ class AnalogClock {
         minHand = (degree % 30) * 12;
         mins = minHand/6;
 
-        System.out.println(minHand);
+        System.out.print(minHand);
 
         // closing the scanner object
         scanner.close();
