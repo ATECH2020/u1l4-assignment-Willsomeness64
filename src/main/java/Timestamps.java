@@ -28,6 +28,7 @@ class Timestamps {
         seconds3 = seconds2 - seconds1;
 
       totalTime = (hours3*3600) + (minutes3 *60) + seconds3;
+        //Changed println to print
       System.out.print(totalTime);
         // closing the scanner object
         scanner.close();
