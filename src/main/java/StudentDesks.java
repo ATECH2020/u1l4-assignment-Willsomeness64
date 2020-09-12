@@ -42,7 +42,7 @@ class StudentDesks {
          {
           desksNeeded += c/2 + 1;
          }
-        System.out.println(desksNeeded);
+        System.out.print(desksNeeded);
 
 
         scanner.close();
